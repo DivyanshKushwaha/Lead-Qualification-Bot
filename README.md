@@ -21,7 +21,31 @@ This report outlines the development and implementation of a multi-agent system 
 - **app.py**: Streamlit app to use for demo with basic user interface.
 
 
+### How It Works: Step-by-Step Execution
 
+- Lead Collection (Collector Agent):
+
+    - Extracts structured data (company name, contact person, email, phone, budget, timeline, etc.) from raw input.
+
+    - Ensures extracted data is consistent and formatted correctly.
+
+    - Saves structured data as collected_leads.json.
+
+- Lead Qualification (Qualifier Agent):
+
+    - Evaluates collected leads using predefined scoring criteria (budget, industry, timeline, use case complexity).
+
+    - Assigns a score out of 100 and classifies the lead as Qualified or Disqualified.
+
+    - Saves results as qualified_leads.json.
+
+- Lead Routing (Routing Agent):
+
+    - Routes leads with scores >50 to routed_leads.json.
+    - Archives leads with scores ≤50 to archived_leads.json.
+    - Ensures leads are not modified or reprocessed incorrectly.
+    - Saves results as routed_and_archived.json.
+    
 ### Results:
 
 
