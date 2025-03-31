@@ -1,4 +1,4 @@
-## Sales Lead Qualification Bot: Multi-Agent System Report
+## Sales Lead Qualification Bot: Multi-Agent System
 
 This report outlines the development and implementation of a multi-agent system designed to qualify inbound sales leads based on predefined criteria. The system includes agents for collecting, evaluating, and routing leads, demonstrating automation capabilities for sales processes.
 
