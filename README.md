@@ -11,7 +11,7 @@ This report outlines the development and implementation of a multi-agent system 
 
 - Routing Agent: Routes qualified leads to the sales team while archiving disqualified leads for further review or future opportunities.
 
-4. Implementation Details
+### Implementation Details
 
 - **agents.py** : Defines the roles, goals, and instructions for all three agents.
 - **tasks.py** : Assigns specific tasks to each agent to process the leads sequentially.
